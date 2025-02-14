@@ -36,7 +36,7 @@ usage: change-home-mode.py [-h] -m MODE -u USERNAME -p PASSWORD -d DEVICE
 
 options:
   -h, --help            show this help message and exit
-  -m MODE, --mode MODE  Put on or of home mode. 0 is home, 1 is away
+  -m MODE, --mode MODE  Put on or of home mode. 0 is home, 1 is away, 2 is sleep
   -u USERNAME, --username USERNAME
                         Username to cloud.leakomatic.com
   -p PASSWORD, --password PASSWORD
