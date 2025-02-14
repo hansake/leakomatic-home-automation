@@ -67,6 +67,8 @@ def main():
             print("Home")
         elif status == 1:
             print("Away")
+        elif status == 2:
+            print("Sleep")
         else:
             print("Got unknown status")
             sys.exit(1)

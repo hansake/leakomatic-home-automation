@@ -3,6 +3,8 @@ Some python scripts to make it easier to integrate leakomatic devices to home au
 
 No guarantees whatsoever that they work in the future since Leakomatic don't provide any official API.
 
+Updated to also handle Sleep mode.
+
 ## Docs
 get-status.py
 ```
@@ -50,4 +52,8 @@ Get if the device is in home or away mode
 $ get-status.py --username user@example.com --password not-a-real-password --device 9999 -s
 Home
 ```
+
+The sleep mode was added to make it possible to control our Leakomatic M3i from my automatic
+irrigation system in the garden. When irrigation starts the Leakomatic is put in Sleep mode
+and when irrigation ends it is put in Home mode.
 

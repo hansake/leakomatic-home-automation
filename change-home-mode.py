@@ -8,7 +8,7 @@ import re
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "-m", "--mode", help="Put on or of home mode. 0 is home, 1 is away", required=True, type=int)
+        "-m", "--mode", help="Put on or of home mode. 0 is home, 1 is away, 2 is sleep", required=True, type=int)
     parser.add_argument(
         "-u", "--username", help="Username to cloud.leakomatic.com", required=True)
     parser.add_argument(
